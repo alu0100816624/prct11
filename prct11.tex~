@@ -1,0 +1,51 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[Problemas]{Practica numero pi}
+\author[Robbert]{Robbert Jozef Michiels}
+\date[23.04.14]{23 de Abril de 2014}
+
+\usetheme{Madrid}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Mi primera sección}
+\begin{frame}
+\frametitle{Introducción}
+La notación de $pi$ proviene de la inicial de las palabras de origen griego 'periferia' y 'perímetro' de un círculo,1 notación que fue utilizada primero por William Oughtred (1574-1660) y cuyo uso fue propuesto por el matemático galés William Jones2 (1675-1749); aunque fue el matemático Leonhard Euler, con su obra Introducción al cálculo infinitesimal, de 1748, quien la popularizó. Fue conocida anteriormente como constante de Ludolph (en honor al matemático Ludolph van Ceulen) o como constante de Arquímedes (que no se debe confundir con el número de Arquímedes). Jones plantea el nombre y símbolo de este número, en 1706 y Euler empieza a difundirlo, en 1736.
+Fórmulas 1 y 2
+\[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+\[\int_{x=0}^{\infty} x\,\text{e}^{-x^2}\text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0 \]
+\end{frame}
+
+\section{Mi segunda sección}
+\begin{frame}
+\frametitle{Aproximación}
+Fórmulas 3 4 y 5
+\[x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, \quad x+y^{2n+2}=\sqrt{b^2-4ac}\]
+\[\min_{3\le x\le 5}\left(x+\frac{1}{x}\right)=2,\quad \lim_{x\to\infty} \left(1+\frac{1}{x}\right)^x = \text{e}^x \]
+$\int 4/(1+x) dx$
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertermplatebookbibitems
+\bibitem[Guía Docente,2013]{guia}
+  Guía Docente. (Año 2013)
+  {\small $http://www.ull.com$}
+\bibitem[Apuntes,2014]{apuntes}
+  Apuntes de clase. (Año 2014)
+\end{thebibliography}
+\end{frame}
+\end{document}
